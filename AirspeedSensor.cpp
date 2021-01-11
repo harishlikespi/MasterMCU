@@ -1,8 +1,7 @@
 #include <Wire.h>
 
-
 #include "AirspeedSensor.h"
-
+namespace c{
 bool AirspeedSensor :: init(){
   return true;
 }
@@ -26,4 +25,5 @@ float AirspeedSensor :: read(){
 
 void AirSpeedSensor :: printAirspeed(float velocity){
   Serial.print(velocity);
+}
 }
