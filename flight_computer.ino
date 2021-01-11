@@ -121,5 +121,4 @@ void print_airspeed(){
     Serial.println("Error, didn't get all bytes from sensor");       
   }*/
 }
-}
 
