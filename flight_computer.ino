@@ -97,7 +97,7 @@ void print_coordinates(){
    }
 }
 
-void print_differential_pressure(){
+void print_airspeed(){
   
   // All of this is being made into a library
   /*
