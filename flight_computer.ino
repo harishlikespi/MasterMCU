@@ -99,26 +99,6 @@ void print_coordinates(){
 
 void print_airspeed(){
   
-  // All of this is being made into a library
-  /*
-  int n = Wire.requestFrom(I2C_ADDRESS, 2);   // request two bytes
   
-// check to see if 2 bytes were recieved
-    if( n == 2){   
-          
-      int a = Wire.read();    // receive first byte
-      int b = Wire.read();   // read second byte 
-
-      a &= 0x3F;    // remove two highest bits.
-
-      unsigned int P_bin = word( a, b);     
-      float Pressure_INH20 = (((float) P_bin - 8192.0) / 16384.0) * 2.0;  // some math to convert the raw data into more convenenient data 
-     
-      float pressure = 249.1740 * Pressure_INH20;
-      Serial.print(pressure);
-     
-  } else {
-    Serial.println("Error, didn't get all bytes from sensor");       
-  }*/
 }
 
