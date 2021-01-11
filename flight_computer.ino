@@ -98,6 +98,8 @@ void print_coordinates(){
 }
 
 void print_differential_pressure(){
+  // All of this is being made into a library
+  /*
   int n = Wire.requestFrom(I2C_ADDRESS, 2);   // request two bytes
   
 // check to see if 2 bytes were recieved
@@ -116,6 +118,7 @@ void print_differential_pressure(){
      
   } else {
     Serial.println("Error, didn't get all bytes from sensor");       
-  }
+  }*/
+  
 }
 
